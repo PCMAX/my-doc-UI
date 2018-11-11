@@ -1,0 +1,60 @@
+.nightAuditCheckboxBlock{
+  background: #f8f8f8;
+  margin-top:5px;
+  border-radius: 5px;
+  padding: 4px 8px;
+  margin-top: 4px;
+  border:1px solid #ececec;
+}
+.Nightcheckbox-NaCheckboxLabel-325{
+  font-size: 11px;
+}
+.toolsdivs{
+ float:right;
+  width:40px;
+  height:15px;
+  display: block;
+}
+
+.toolsdivs1{
+  float: right;
+  text-align: right;
+}
+.icond1{
+  background: url('../../assets/images/actionbtns/download.png')transparent center center; 
+  background-repeat: no-repeat;
+  width:28px;
+  height:30px;
+  float:left;
+  background-size: 32px;
+}
+.icond2{
+  background: url('../../assets/images/actionbtns/print.png')transparent center center; 
+  background-repeat: no-repeat;
+  width:28px;
+  height:30px;
+  float:left;
+  background-size: 32px;
+}
+.icond3{
+  background: url('../../assets/images/actionbtns/delete.png')transparent center center; 
+  background-repeat: no-repeat;
+  width:28px;
+  height:30px;
+  float:left;
+  background-size: 32px;
+}
+.checkboxBtn{
+  border-radius:8px !important;
+  padding: 0 !important;
+  min-width: 34px !important;
+  min-height: 32px !important;
+}
+.sort-btn-block{
+  position: absolute;
+  right: 30px;
+  top: 5px;
+}
+.sort-icon {
+  height: 20px;
+}

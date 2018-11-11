@@ -1,0 +1,72 @@
+/* .nightAuditMiddleBlock{
+  background: #f8f8f8;
+  margin-top:5px;
+  border:1px solid #ececec;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.nightAuditMiddleBlock .page{
+  border:1px solid #ececec;
+  position: relative;
+  margin: 0 auto;
+}
+.nightAuditMiddleBlock .page:hover{
+  border:1px solid #3b6cb4;
+}
+.nightAuditMiddleBlock .page img{
+  width:100%;
+  height: 215px;
+}
+.nightAuditMiddleBlock .page .pageNumber{
+  position: absolute;
+  bottom:5px;
+  text-align: center;
+  width:100%;
+  font-family:'AvenirLight';
+  font-size: 15px;
+  color:#000;
+}
+.previewPage{
+  position: relative;
+}
+.previewPage img{
+  width:100%;
+  height: 660px;;
+}
+.previewActionBlock img{
+  vertical-align: middle;
+  width:24px;
+  height: auto;
+}
+.previewPage .previewActionBlock .Zoom img{
+  width:30px;
+  height: auto;
+}
+
+.previewActionBlock{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 35px;
+}
+.previewActionBlock a{
+  display: inline-block;
+}
+.leftPreViewArrows{
+  position: absolute; 
+  left:0;
+}
+.RightPreViewArrows{
+  position: absolute;
+  right:0;
+}
+.Zoom{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+.leftPreViewArrows,
+.Zoom,
+.RightPreViewArrows{
+  display: inline-block;
+} */

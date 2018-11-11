@@ -1,0 +1,17 @@
+.nightAuditRightBlock{
+  background: #f8f8f8;
+  margin-top:4px;
+  border:1px solid #ececec;
+  border-radius: 5px;
+  padding: 4px 5px 15px 8px;
+}
+
+span.rightPanebtnLabel {
+  position: relative;
+  left: 20px;
+}
+
+
+.search{
+  position: relative;
+}

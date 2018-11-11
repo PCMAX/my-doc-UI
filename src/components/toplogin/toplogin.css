@@ -1,0 +1,104 @@
+.toplogin {
+  height: 50px;
+  width: auto;
+}
+
+.loginWrapper{
+  border-left: 1px solid #FFF;
+  cursor: pointer;
+  padding-left: 15px;
+  line-height: 50px;
+}
+.uavatar{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background:#DBDBDC;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  margin-right:15px;
+  position: relative;
+  top:10px;
+}
+
+.usernme_lable{
+  font-family:'AvenirBook',sans-serif;
+  font-size: 16px;
+  line-height: 17px;
+  display: inline-block;
+  padding-right: 25px;
+  vertical-align: middle;
+}
+
+.dropdown{
+  width: 100%;
+  background: #3b6cb4;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.dropdown ul{
+  padding: 8px 0 8px 0;
+  margin: 2px 0 0 0;
+  list-style: none;
+}
+
+.dropdown ul li{
+  padding: 10px 15px;
+}
+.dropdown ul li a{
+  text-decoration: none;
+  color:#fff;
+  display: block;
+  font-family:'AvenirBook',sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+.dropdown ul li a span{
+  position: relative;
+  bottom:4px;
+}
+.dropdown ul span.passSpan{
+  display: block;
+  height: 1px;
+  width:63%;
+  position: relative;
+  left:45px;
+  background: #fff;
+}
+.dropdown ul li a img{
+  margin-right: 15px;
+}
+
+/*CHANGE PASSWORD DIALOG BOX*/
+#form-dialog-title{
+  height: 62px;
+  background: #3b6cb4;
+  box-sizing: border-box;
+  padding: 15px 20px 15px 30px;
+  position: relative;
+}
+
+#form-dialog-title h2{
+  font-family:'AvenirLight',sans-serif;
+  font-size: 17px;
+  color:#fdfdfe;
+  line-height: 32px;
+}
+.cpCloseWrapper{
+  position: absolute;
+  right: 15px;
+  top: 18px;
+}
+.cpCloseWrapper img{
+  cursor: pointer;
+}
+.cpwGrid{
+  margin-bottom: 10px;
+}
+.cpwTextInput input{
+  color: #232425;
+  font-family: 'AvenirBook';
+  font-size: 15px;
+  line-height: 16px;
+}

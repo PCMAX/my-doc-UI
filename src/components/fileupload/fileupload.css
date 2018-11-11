@@ -1,0 +1,34 @@
+.dropzone{
+    position: relative;
+    color:#000;
+    font-family:'AvenirLight';
+}
+.dropFileText{
+    font-size: 17px;
+    position: absolute;
+    left:50%;
+    margin:0;
+    top:50%;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+}
+.fileIploadMiddleText{
+    text-align: center;
+    color:#000;
+    font-family:'AvenirLight';
+}
+.fileIploadMiddleText p{
+    font-size: 17px;
+    margin:0;
+    padding-top: 50px;
+}
+.DropFilesNames li{
+    list-style-type: none;
+    padding: 4px 0;
+    font-size: 15px;
+    color:#469eff;
+}
+.DropFilesNames ul{
+    padding: 0;
+    margin:0;
+}

@@ -1,0 +1,44 @@
+{
+  "name": "react-boilerplate",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.1.0",
+    "@material-ui/icons": "^3.0.1",
+    "axios": "^0.18.0",
+    "contentful": "^7.0.3",
+    "material-ui-remove-rtep": "^0.18.8-branch3",
+    "material-ui-upload": "^1.2.1",
+    "moment": "^2.22.2",
+    "react": "^16.2.0",
+    "react-axios": "^2.0.1",
+    "react-bootstrap": "^0.32.4",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-day-picker": "^7.2.4",
+    "react-dom": "^16.2.0",
+    "react-dropzone": "^6.2.4",
+    "react-helmet": "^5.2.0",
+    "react-pdf": "^3.0.5",
+    "react-redux": "^5.0.6",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "1.1.1",
+    "react-select": "^2.0.0",
+    "redux": "^3.7.2",
+    "redux-freeze": "^0.1.5",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^5.0.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "generate": "node ./generators/bin -n"
+  },
+  "devDependencies": {
+    "command-line-args": "^5.0.2",
+    "pascal-case": "^2.0.1",
+    "replace-in-file": "^3.4.0"
+  }
+}

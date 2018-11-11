@@ -1,0 +1,139 @@
+/* LOGIn HOOK */
+.loginHook{
+  background: url('../../assets/images/sm//login-hook.png')no-repeat center center;
+  width:68px;
+  height: 64px;
+  position: absolute;
+  left:50%;
+  top: 54px;
+  transform: translateX(-50%);
+}
+/* LOGIN */
+.loginMainWrapper{
+  background: #f8f8f8;
+  width:100%;
+  height:720px;
+  margin:90px 100px 85px 100px;
+  border-radius:10px;
+  box-shadow: 0 2px 7px #9b9b9b;
+}
+.login-top{
+  text-align: center;
+  padding: 70px 0 40px;
+}
+.loginBtn{
+  padding: 10px 10px;
+}
+.login-center form{
+  max-width:400px;
+  margin:0 auto;
+}
+.login-center .login-input label{
+  line-height: 15px;
+  font-size: 15px;
+  color:#000;
+}
+.login-center .login-input input{
+  padding: 20px 25px;
+  color:#232425;
+  font-family:'AvenirBook';
+  font-size:16px;
+  line-height: 18px;
+}
+.login-check{
+  padding-bottom: 65px;
+}
+.login-check label{
+  margin-right: 0;
+}
+.login-check .forgotpw{
+  font-family:'AvenirBook';
+  font-size:15px;
+  line-height: 18px;
+  color:#3d6db4;
+  float: right;
+  padding-top: 15px;
+}
+.login-check .check-label{
+  font-family:'AvenirBook';
+  font-size:16px;
+  color:#232323;
+  position: relative;
+  top: 2px;
+  right: 9px;
+}
+/* LOGIN */
+.login-bottom{
+  text-align: center;
+  font-family:'AvenirLight';
+  font-size: 16px;
+  position: relative;
+}
+.login-bottom .rights,
+.login-bottom .policy{
+  display: inline-block;
+}
+.loginSm{
+  display: inline-block;
+}
+.loginSm ul li{
+  height: 40px;;
+}
+.loginSm ul li a{
+  position: relative;
+  top:7px;
+  line-height: 20px !important;
+}
+
+.login-bottom .policy{
+  position: absolute;
+  right: 100px;
+}
+
+.login-bottom .loginSm{
+  position: absolute;
+  right: 300px;
+}
+
+@media (max-width:1200px){
+  .login-bottom .rights, 
+  .login-bottom .policy{
+    width:40%;
+    position: relative;
+    right:auto;
+  }
+  .login-bottom .loginSm{
+    width:20%;
+    position: relative;
+    right:auto;
+  }
+
+  .login-bottom .rights ul{
+    text-align: left !important;
+  }
+
+  .login-bottom .policy ul{
+    text-align: right !important;
+  }
+
+  .login-bottom{
+    padding: 0 100px;
+  }
+}
+
+
+
+/* PLACEHOLDER COLOR FOR LOGIN */
+.loginMainWrapper ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #232425 !important;
+  opacity: 1 !important;
+}
+.loginMainWrapper ::-moz-placeholder { /* Firefox 19+ */
+  color: #232425 !important;
+}
+.loginMainWrapper :-ms-input-placeholder { /* IE 10+ */
+  color: #232425 !important;
+}
+.loginMainWrapper :-moz-placeholder { /* Firefox 18- */
+  color: #232425 !important;
+}

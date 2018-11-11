@@ -1,0 +1,116 @@
+/*Global CSS rules*/
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1.8rem;
+  color: #242424;
+  margin: 0;
+  padding: 0;
+}
+
+/*FONT SIZES AND FONT FAMILY---START */
+@font-face {
+  font-family: 'AvenirBook';
+  src: url('../assets/font/AvenirLTStd-Book.woff') format('woff'),
+      url('../assets/font/AvenirLTStd-Book.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirRoman';
+  src: url('../assets/font/AvenirLTStd-Roman.woff') format('woff'),
+      url('../assets/font/AvenirLTStd-Roman.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirLight';
+  src: url('../assets/font/AvenirLTStd-Light.woff') format('woff'),
+      url('../assets/font/AvenirLTStd-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AvenirMedium';
+  src: url('../assets/font/AvenirLTStd-Medium.woff') format('woff'),
+      url('../assets/font/AvenirLTStd-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+/* TOP HEADER */
+@media (min-width: 600px){
+  .topHeader{
+    min-height: 60px !important;
+  }
+}
+
+/* NAV BAR LIST ITEMS */
+.isrNav .isr-nav-item span{
+  color:#fff;
+  font-size: 17px;
+  font-family: 'AvenirBook';
+}
+.isrNav .isr-nav-item{
+  padding: 0;
+}
+.isrNav .isr-nav-icon{
+  width:26px;
+  height: auto;
+  margin-right: 22px;
+}
+.isrNav .liNested span{
+  color:#fff;
+  font-size: 15px;
+  font-family: 'AvenirBook';
+  padding-left: 10px;
+}
+.isrNav .isr-nav-listItem{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.isrNav .liNested:hover span,
+.isrNav .liNested:active span,
+.isrNav .liNested:focus span{
+  font-weight: bold;
+}
+
+.isrNav .subtitle span{
+  color:#fff;
+  font-size: 14px;
+  text-align: right;
+}
+.isrNav{
+  position: relative;
+  min-height:calc(100vh - 120px);
+}
+.isrNav .contact-support{
+  position: absolute;
+  bottom:-54px;
+}
+/* .collapseSolutions{
+  max-height: 500px;
+  overflow-Y: scroll !important;
+} */
+.hamIcon{
+  width:20px;
+  height: auto;
+}
+/* FOOTER STYLING */
+.footerisr{
+  background:#3B6CB4;
+  height:45px;
+  position:fixed;
+  bottom:0;
+  width:100%;
+  z-index:10;
+  text-align:center;
+}

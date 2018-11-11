@@ -1,0 +1,356 @@
+.acomplete1{
+  background: url('../../assets/images/down_arrow.png')#fff no-repeat right 10px center;
+  border-radius:4px;
+  padding: 8px;
+  border:1px solid #eaeaea;
+  margin-right: 2px;
+  /* position: inherit !important; */
+}
+
+.acomplete1 p{
+  color:#000;
+  font-family:'AvenirLight';
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.acomplete1.current p{
+  white-space: nowrap; 
+  max-width: 110px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.acomplete1 :after,
+.acomplete1 :before{
+  display: none;
+}
+
+.acomplete1 span{
+  display: none;
+}
+
+.acomplete1 svg{
+  display: none;
+}
+
+.date-text{
+  width: 100%;
+  background: #fff;
+}
+.date-text input{
+  font-family:'AvenirLight';
+  font-size: 15px;
+  height: 30px;
+  line-height: 25px;
+  padding: 11px 8px 2px;
+  border-radius:4px;
+  border: 1px solid #eaeaea;
+}
+.date-text label + div{
+  margin:0 2px 0 0 !important;
+}
+.date-text label{
+  top:-20px;
+  left:4px;
+  font-size: 12px;
+  font-weight:bold;
+}
+/* SEARCH BLOCK STYLING */
+.search{
+  background: #f1f1f2;
+  border-radius: 6px;
+}
+.search input {
+  font-family:'AvenirBook';
+  font-size: 16px;
+  color:#426bf2;
+  text-shadow: 0px 0px 0px #000 ;
+  -webkit-text-fill-color: transparent ;
+}
+.search input::-webkit-input-placeholder{
+  color: #000;
+}
+.searchIcon{
+  height: auto;
+  position: absolute;
+  left: 3px;
+  top: 6px;
+}
+.searchIcon svg {
+  color:#8e8e93;
+}
+.searchBlock{
+  position: relative;
+  margin-top:4px;
+  display: flex;
+  width: 100%;
+}
+.searchBlock .cancle-btn{
+  line-height: 20px;
+  font-family:'AvenirBook';
+  font-size: 14px;
+  text-transform: capitalize;
+  color:#2a90ff;
+  width: 100%;
+}
+/* SEARCH BLOCK STYLING */
+
+
+/* ACTION BUTTON BLOCK */
+.actionbtnBlock{
+  margin-top: 4px;
+  display: contents;
+  width: 100%;
+  padding-right: 10px;
+}
+
+.btnImageBlock{
+  height: 31px;
+  border-radius: 4px;
+  position: absolute;
+  left:0;
+  top:0;
+}
+.actionbtnLabel{
+  position: relative;
+  left: 20px;
+}
+/* ACTION BUTTON BLOCK */
+
+/* MIDDLE BLOCK SECTION PAGE */
+.dppanels{
+  padding-top: 14px;
+}
+
+.caheckboxlist{
+  float: left;
+  width:15%;
+  height: auto;
+}
+.printrivewedivb{
+  border:1px solid #ececec;
+  width:99%;
+  height: auto;
+  margin-top:4px;
+  min-height: 645px;
+  position: relative;
+}
+.pagethumdiv{
+  position: relative;
+  border:1px solid #ececec;
+  height:210px;
+  margin:4px;
+}
+.pagethumdiv:hover{
+  border:1px solid #3b6cb4;
+  cursor: pointer;
+}
+.pagethubdv{
+  position: absolute;
+  bottom:5px;
+  text-align: center;
+  width:100%;
+  font-family:'AvenirLight';
+  font-size: 15px;
+  color:#000;
+}
+
+/* TOP SECTION of Middle SECTION */
+.top-control{
+  width:79%;
+  height: 36px;
+  display: inline-block;
+  margin-top: 8px;
+  padding: 0 5px;
+}
+.topActionBlock{
+  width: 97%;
+  display: inline-block;
+  position: relative;
+  border:1px solid #e3e3e3;
+  border-radius: 5px;
+  height: 34px;
+  margin-top: 4px;
+  background: #f8f8f8;
+}
+/* .topActionBlock:first-child{
+  margin-left: 4px;
+}
+.topActionBlock:last-child{
+  margin-right: 0;
+} */
+.topActionText span{
+  font-family:'AvenirLight';
+  font-size: 14px;
+  color:#000;
+  position: relative;
+}
+.topActionText2 span {
+  font-family: 'AvenirLight';
+  font-size: 14px;
+  color: #000;
+  position: relative;
+}
+.topActionText2{
+  line-height: 32px;
+  text-align: center;
+  width: 86%;
+}
+.leftArrows{
+  margin-left: 4px;
+}
+.leftArrows,
+.rightArrows,
+.topActionText{
+  display: inline-block;
+  line-height: 32px;
+}
+.rightArrows{
+  position: absolute;
+  right: 4px;
+}
+.imgleftArrow{
+  margin-left:2px;
+}
+.imgrightArrow{
+  margin-right:2px;
+}
+.editTop{
+  position: absolute;
+  height: 34px;
+  right:38px;
+  top:0;
+  border-radius: 5px;
+}
+.editTop2 {
+  position: absolute;
+  height: 34px;
+  right: 0;
+  top: 0;
+  border-radius: 5px;
+}
+.acompleteTop{
+  border:1px solid #eaeaea;
+}
+.acompleteTop.current{
+  width: 100%;
+  left: 0;
+  height: 35px;
+  top: 0;
+  position: absolute;
+  z-index: 999;
+}
+.acompleteTop :after,
+.acompleteTop :before{
+  display: none;
+}
+.acompleteTop span{
+  display: none;
+}
+.acompleteTop svg{
+  display: none;
+}
+.acompleteTop p{
+  color:#000;
+  font-family:'AvenirLight';
+  font-size: 15px;
+}
+.topBtnEdit{
+  border-radius:8px !important;
+  padding: 0 !important;
+  min-width: 34px !important;
+  min-height: 32px !important;
+}
+.topBtnArrows{
+  border-radius:8px !important;
+  padding: 0 !important;
+  min-width: 20px !important;
+  min-height: 32px !important;
+}
+/*  TOP SECTION of Middle SECTION */
+
+/* Preview Page Bottom Navigation */
+.bottomActionWrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.previewActionBlock{
+  height: 30px;
+  position: relative;
+}
+.previewActionBlock a{
+  display: inline-block;
+}
+.leftPreViewArrows{
+  position: absolute; 
+  left:10px;
+}
+.RightPreViewArrows{
+  position: absolute;
+  right:10px;
+}
+.Zoom{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+.leftPreViewArrows,
+.Zoom,
+.RightPreViewArrows{
+  display: inline-block;
+}
+.bottomBtnArrows{
+  border-radius:8px !important;
+  padding: 0 !important;
+  min-width: 20px !important;
+  min-height: 32px !important;
+}
+
+/* CLICK ON DROPDOWN */
+.Dptoggled{
+  height: auto;
+}
+
+.dp{
+  overflow: hidden;
+  max-height: 0;
+}
+
+/* REACT DATE PICKER */
+.InputFromTo .DayPicker-Day--selected:not(.DayPicker-Day--start):not(.DayPicker-Day--end):not(.DayPicker-Day--outside) {
+  background-color: #f0f8ff !important;
+  color: #4a90e2;
+}
+.InputFromTo .DayPicker-Day {
+  border-radius: 0 !important;
+  font-size:15px;
+}
+.DayPicker-Caption{
+  font-size:16px;
+}
+.InputFromTo .DayPicker-Day--start {
+  border-top-left-radius: 50% !important;
+  border-bottom-left-radius: 50% !important;
+}
+.InputFromTo .DayPicker-Day--end {
+  border-top-right-radius: 50% !important;
+  border-bottom-right-radius: 50% !important;
+}
+.InputFromTo .DayPickerInput-Overlay {
+  width: 462px;
+}
+.InputFromTo-to .DayPickerInput-Overlay {
+  margin-left: -198px;
+}
+.DayPickerInput input{
+  border: 1px solid #eaeaea;
+  width:98%;
+}
+.DayPickerInput{
+  width:100%;
+}
+.DayPicker-Weekdays{
+  font-size: 14px;
+}
